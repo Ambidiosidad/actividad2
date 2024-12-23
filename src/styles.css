@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.index-container {
+  margin: 20px;
+}
+
+ol {
+  counter-reset: item;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+ol li {
+  display: block;
+  margin-bottom: 15px;
+}
+
+ol li:before {
+  content: counters(item, ".") ". ";
+  counter-increment: item;
+  margin-right: 10px;
+}
+
+ul {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+a {
+  color: #3f51b5;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
