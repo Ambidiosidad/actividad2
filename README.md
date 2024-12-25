@@ -1,6 +1,6 @@
 # ActividadDos
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+Este proyecto ha sido creado para la actividad 2 de desarrollo de aplicaciones red por Jorge Simón Brumos en [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
 
 ## Development server
 
